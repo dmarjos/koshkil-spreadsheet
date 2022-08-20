@@ -1,0 +1,23 @@
+{
+    "name": "koshkil/spreadsheet",
+    "description": "PHP Based Excel handling library",
+    "type": "library",
+    "license": "GNU General Public License 3.0",
+    "autoload": {
+        "psr-4": {
+            "Koshkil\\Excel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Marjos",
+            "email": "koshkil.framework@danielmarjos.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
